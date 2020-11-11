@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_336", "graph_description": "", "umrf_actions": [{"name": "TaSurvey", "package_name": "ta_survey", "description": "Examine a grey box by the light of a nightstand lamp", "id": 0, "effect": "synchronous", "input_parameters": {"object": {"pvf_type": "string", "pvf_example": "grey box"}, "verb": {"pvf_type": "string", "pvf_example": "Examine"}}}]}

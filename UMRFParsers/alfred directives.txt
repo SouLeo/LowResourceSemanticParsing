@@ -1,0 +1,5 @@
+Turn left and face the dresser.
+Pick up the alarm clock from the dresser.
+Turn left, look and then face the lamp.
+Turn the lamp on
+Pick up the alarm clock and turn on the lamp.

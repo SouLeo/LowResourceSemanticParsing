@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_277", "graph_description": "", "umrf_actions": [{"name": "TaPickup", "package_name": "ta_pickup", "description": "Pick up the stamp", "id": 0, "effect": "synchronous", "input_parameters": {"object": {"pvf_type": "string", "pvf_example": "the stamp"}, "verb": {"pvf_type": "string", "pvf_example": "Pick up"}}}]}
