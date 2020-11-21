@@ -22,6 +22,7 @@ def extract_training_exs():
                 temp_action_list.append(umrf['description'])
             joined_actions = ' '.join(temp_action_list)
             training_ex = ' '.join(joined_actions.split())
+            training_ex = training_ex
             training_sentences.append(training_ex)
     return training_sentences
 
