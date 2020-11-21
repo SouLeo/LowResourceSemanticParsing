@@ -50,9 +50,10 @@ def createTrainLoader():
         np_labels[i, :] = np.pad(np.array(labels_embed[i], dtype=np.int_), pad_width=(0, t), mode='constant')
     np_labels = np_labels.astype(int)
 
-    train_data = TensorDataset(train_exs_embeds[:200], torch.from_numpy(np_labels[:200]))
+    train_data = TensorDataset(train_exs_embeds[:80], torch.from_numpy(np_labels[:80]))
     train_loader = DataLoader(train_data, shuffle=True, batch_size=4)
-    return train_loader, output_indexer, sos_seq
+    test_loader = DataLoader(train_data, shuffle=True, batch_size=len(train_exs_embeds))
+    return train_loader, output_indexer, sos_seq, test_loader
     # return np_labels, train_exs_embeds
 
 # Models TODO:

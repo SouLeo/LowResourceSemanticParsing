@@ -148,7 +148,12 @@ class Seq2Seq(nn.Module):
         encoder_outputs, hidden = self.encoder.forward(src)
 
         # first input to the decoder is the <sos> tokens
-
+        if batch_size != 4:
+            sos_seq = sos_seq.repeat(1, 20, 1)
+        #     sos_seq = list(range(batch_size))
+        #     for i in range(0, len(sos_seq)):
+        #         sos_seq[i] = 101
+        #     sos_seq = torch.LongTensor(sos_seq)
 
         for t in range(1, max_len):
             # insert input token embedding, previous hidden state and all encoder hidden states
