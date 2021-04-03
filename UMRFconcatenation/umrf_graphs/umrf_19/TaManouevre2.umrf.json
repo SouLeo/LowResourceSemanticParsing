@@ -1,0 +1,35 @@
+{
+    "name": "TaManouevre",
+    "package_name": "ta_manouevre",
+    "description": "take a couple steps",
+    "id": 2,
+    "effect": "synchronous",
+    "input_parameters": {
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "a couple"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "steps"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "take"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManouevre",
+            "id": 1
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManouevre",
+            "id": 0
+        }
+    ]
+}

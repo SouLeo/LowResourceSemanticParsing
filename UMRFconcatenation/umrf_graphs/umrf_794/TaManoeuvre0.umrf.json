@@ -1,0 +1,23 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "walk straight forward",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "forward"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaOrient",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "take a left to the wall after the couch",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "to the wall after the couch"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "take"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

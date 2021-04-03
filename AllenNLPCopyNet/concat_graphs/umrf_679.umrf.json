@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_679", "graph_description": "", "umrf_actions": [{"name": "TaSurvey", "package_name": "ta_survey", "description": "Examine the baseball bat using the lamp light.", "id": 0, "effect": "synchronous", "input_parameters": {"object": {"pvf_type": "string", "pvf_example": "baseball bat"}, "verb": {"pvf_type": "string", "pvf_example": "Examine"}}}]}

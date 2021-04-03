@@ -1,0 +1,29 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "then make a right at the black chairs ",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "make"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 2
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "then turn right towards the dresser",
+    "id": 5,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number"
+            },
+            "unit": {
+                "pvf_type": "string"
+            }
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "towards the dresser"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaSurvey",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 4
+        }
+    ]
+}

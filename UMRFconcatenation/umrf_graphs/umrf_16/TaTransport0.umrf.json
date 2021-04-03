@@ -1,0 +1,23 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Hold the clock",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Hold"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManouevre",
+            "id": 0
+        }
+    ]
+}

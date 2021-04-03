@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_379", "graph_description": "", "umrf_actions": [{"name": "TaManoeuvre", "package_name": "ta_manoeuvre", "description": "Turn to the right", "id": 0, "effect": "synchronous", "input_parameters": {"direction": {"pvf_type": "string", "pvf_example": "right"}, "verb": {"pvf_type": "string", "pvf_example": "Turn"}}}]}

@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Take the vase off of the top shelf above the table",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "off of the top shelf above the table"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the vase"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Take"
+        }
+    }
+}

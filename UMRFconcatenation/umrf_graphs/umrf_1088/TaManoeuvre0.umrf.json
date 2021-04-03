@@ -1,0 +1,29 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "Turn right towards the desk",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number"
+            },
+            "unit": {
+                "pvf_type": "string"
+            }
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "towards the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    }
+}

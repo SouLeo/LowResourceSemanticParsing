@@ -1,0 +1,27 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "grab the clock from the table",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "from the table"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "grab"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

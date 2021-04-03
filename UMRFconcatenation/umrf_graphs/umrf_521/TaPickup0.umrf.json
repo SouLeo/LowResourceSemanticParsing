@@ -1,0 +1,17 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Pick up the clock that's in front of you.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Pick up"
+        }
+    }
+}

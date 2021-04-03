@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "and turn left at the wall ",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "at the wall "
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry to clock to the left side of the dresser where the lamp is",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the left side of the dresser where the lamp is"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Carry"
+        }
+    }
+}

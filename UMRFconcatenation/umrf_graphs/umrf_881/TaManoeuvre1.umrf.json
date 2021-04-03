@@ -1,0 +1,29 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "walk forward",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "forward"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 2
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

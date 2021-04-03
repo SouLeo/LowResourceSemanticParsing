@@ -1,0 +1,31 @@
+{
+    "name": "TaToggle",
+    "package_name": "ta_toggle",
+    "description": "turn on the lamp on the table",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "on the table"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the lamp"
+        },
+        "state": {
+            "pvf_type": "string",
+            "pvf_example": "on"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaPickup",
+            "id": 0
+        }
+    ]
+}

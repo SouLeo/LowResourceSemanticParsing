@@ -1,0 +1,23 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "and look up",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "up"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "look"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "to face the table with two clocks",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "the table with two clocks"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "face"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 2
+        }
+    ]
+}

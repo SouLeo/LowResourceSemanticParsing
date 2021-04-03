@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "pick up clock on the left from bedside table",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "on the left from bedside table"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "pick up"
+        }
+    }
+}

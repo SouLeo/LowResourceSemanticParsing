@@ -1,0 +1,212 @@
+2021-01-13 19:09:10,038 - INFO - allennlp.common.params - random_seed = 13370
+2021-01-13 19:09:10,038 - INFO - allennlp.common.params - numpy_seed = 1337
+2021-01-13 19:09:10,038 - INFO - allennlp.common.params - pytorch_seed = 133
+2021-01-13 19:09:10,042 - INFO - allennlp.common.checks - Pytorch version: 1.7.1+cpu
+2021-01-13 19:09:10,042 - INFO - allennlp.common.params - type = default
+2021-01-13 19:09:10,043 - INFO - allennlp.common.params - dataset_reader.type = copynet_seq2seq
+2021-01-13 19:09:10,043 - INFO - allennlp.common.params - dataset_reader.lazy = False
+2021-01-13 19:09:10,043 - INFO - allennlp.common.params - dataset_reader.cache_directory = None
+2021-01-13 19:09:10,043 - INFO - allennlp.common.params - dataset_reader.max_instances = None
+2021-01-13 19:09:10,043 - INFO - allennlp.common.params - dataset_reader.manual_distributed_sharding = False
+2021-01-13 19:09:10,044 - INFO - allennlp.common.params - dataset_reader.manual_multi_process_sharding = False
+2021-01-13 19:09:10,044 - INFO - allennlp.common.params - dataset_reader.target_namespace = target_tokens
+2021-01-13 19:09:10,044 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.type = spacy
+2021-01-13 19:09:10,044 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.language = en_core_web_sm
+2021-01-13 19:09:10,044 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.pos_tags = False
+2021-01-13 19:09:10,045 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.parse = False
+2021-01-13 19:09:10,045 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.ner = False
+2021-01-13 19:09:10,045 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.keep_spacy_tokens = False
+2021-01-13 19:09:10,045 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.split_on_spaces = False
+2021-01-13 19:09:10,045 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.start_tokens = None
+2021-01-13 19:09:10,046 - INFO - allennlp.common.params - dataset_reader.source_tokenizer.end_tokens = None
+2021-01-13 19:09:10,506 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.type = spacy
+2021-01-13 19:09:10,507 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.language = en_core_web_sm
+2021-01-13 19:09:10,507 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.pos_tags = False
+2021-01-13 19:09:10,507 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.parse = False
+2021-01-13 19:09:10,507 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.ner = False
+2021-01-13 19:09:10,507 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.keep_spacy_tokens = False
+2021-01-13 19:09:10,507 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.split_on_spaces = False
+2021-01-13 19:09:10,508 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.start_tokens = None
+2021-01-13 19:09:10,508 - INFO - allennlp.common.params - dataset_reader.target_tokenizer.end_tokens = None
+2021-01-13 19:09:10,508 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.type = single_id
+2021-01-13 19:09:10,508 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.namespace = source_tokens
+2021-01-13 19:09:10,508 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.lowercase_tokens = False
+2021-01-13 19:09:10,508 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.start_tokens = None
+2021-01-13 19:09:10,509 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.end_tokens = None
+2021-01-13 19:09:10,509 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.feature_name = text
+2021-01-13 19:09:10,509 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.default_value = THIS IS A REALLY UNLIKELY VALUE THAT HAS TO BE A STRING
+2021-01-13 19:09:10,509 - INFO - allennlp.common.params - dataset_reader.source_token_indexers.tokens.token_min_padding_length = 0
+2021-01-13 19:09:10,509 - INFO - allennlp.common.params - train_data_path = UMRF_train.tsv
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - datasets_for_vocab_creation = None
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - validation_dataset_reader = None
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - validation_data_path = valid_UMRF.tsv
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - validation_data_loader = None
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - test_data_path = None
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - evaluate_on_test = False
+2021-01-13 19:09:10,510 - INFO - allennlp.common.params - batch_weight_key = 
+2021-01-13 19:09:10,511 - INFO - allennlp.training.util - Reading training data from UMRF_train.tsv
+2021-01-13 19:09:10,511 - INFO - tqdm - reading instances: 0it [00:00, ?it/s]
+2021-01-13 19:09:10,517 - INFO - allennlp_models.generation.dataset_readers.copynet_seq2seq - Reading instances from lines in file at: UMRF_train.tsv
+2021-01-13 19:09:11,684 - INFO - allennlp.training.util - Reading validation data from valid_UMRF.tsv
+2021-01-13 19:09:11,684 - INFO - tqdm - reading instances: 0it [00:00, ?it/s]
+2021-01-13 19:09:11,688 - INFO - allennlp_models.generation.dataset_readers.copynet_seq2seq - Reading instances from lines in file at: valid_UMRF.tsv
+2021-01-13 19:09:11,774 - INFO - allennlp.common.params - vocabulary.type = from_instances
+2021-01-13 19:09:11,775 - INFO - allennlp.common.params - vocabulary.max_vocab_size = None
+2021-01-13 19:09:11,775 - INFO - allennlp.common.params - vocabulary.non_padded_namespaces = ('*tags', '*labels')
+2021-01-13 19:09:11,775 - INFO - allennlp.common.params - vocabulary.pretrained_files = None
+2021-01-13 19:09:11,775 - INFO - allennlp.common.params - vocabulary.only_include_pretrained_words = False
+2021-01-13 19:09:11,775 - INFO - allennlp.common.params - vocabulary.tokens_to_add = None
+2021-01-13 19:09:11,776 - INFO - allennlp.common.params - vocabulary.min_pretrained_embeddings = None
+2021-01-13 19:09:11,776 - INFO - allennlp.common.params - vocabulary.padding_token = @@PADDING@@
+2021-01-13 19:09:11,776 - INFO - allennlp.common.params - vocabulary.oov_token = @@UNKNOWN@@
+2021-01-13 19:09:11,776 - INFO - allennlp.data.vocabulary - Fitting token dictionary from dataset.
+2021-01-13 19:09:11,776 - INFO - tqdm - building vocab: 0it [00:00, ?it/s]
+2021-01-13 19:09:11,900 - INFO - allennlp.common.params - model.type = copynet_seq2seq
+2021-01-13 19:09:11,900 - INFO - allennlp.common.params - model.source_embedder.type = basic
+2021-01-13 19:09:11,900 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.type = embedding
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.embedding_dim = 310
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.num_embeddings = None
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.projection_dim = None
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.weight = None
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.padding_index = None
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.trainable = True
+2021-01-13 19:09:11,901 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.max_norm = None
+2021-01-13 19:09:11,902 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.norm_type = 2.0
+2021-01-13 19:09:11,902 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.scale_grad_by_freq = False
+2021-01-13 19:09:11,902 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.sparse = False
+2021-01-13 19:09:11,902 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.vocab_namespace = source_tokens
+2021-01-13 19:09:11,902 - INFO - allennlp.common.params - model.source_embedder.token_embedders.tokens.pretrained_file = None
+2021-01-13 19:09:11,911 - INFO - allennlp.common.params - model.encoder.type = lstm
+2021-01-13 19:09:11,911 - INFO - allennlp.common.params - model.encoder.input_size = 310
+2021-01-13 19:09:11,911 - INFO - allennlp.common.params - model.encoder.hidden_size = 1500
+2021-01-13 19:09:11,911 - INFO - allennlp.common.params - model.encoder.num_layers = 1
+2021-01-13 19:09:11,911 - INFO - allennlp.common.params - model.encoder.bias = True
+2021-01-13 19:09:11,911 - INFO - allennlp.common.params - model.encoder.dropout = 0.0
+2021-01-13 19:09:11,912 - INFO - allennlp.common.params - model.encoder.bidirectional = False
+2021-01-13 19:09:11,912 - INFO - allennlp.common.params - model.encoder.stateful = False
+2021-01-13 19:09:11,959 - INFO - allennlp.common.params - model.attention.type = bilinear
+2021-01-13 19:09:11,959 - INFO - allennlp.common.params - model.attention.vector_dim = 1500
+2021-01-13 19:09:11,960 - INFO - allennlp.common.params - model.attention.matrix_dim = 1500
+2021-01-13 19:09:11,960 - INFO - allennlp.common.params - model.attention.activation = None
+2021-01-13 19:09:11,960 - INFO - allennlp.common.params - model.attention.normalize = True
+2021-01-13 19:09:11,971 - INFO - allennlp.common.params - model.beam_size = 5
+2021-01-13 19:09:11,971 - INFO - allennlp.common.params - model.max_decoding_steps = 50
+2021-01-13 19:09:11,971 - INFO - allennlp.common.params - model.target_embedding_dim = 1500
+2021-01-13 19:09:11,971 - INFO - allennlp.common.params - model.copy_token = @COPY@
+2021-01-13 19:09:11,971 - INFO - allennlp.common.params - model.target_namespace = target_tokens
+2021-01-13 19:09:11,972 - INFO - allennlp.common.params - model.tensor_based_metric = None
+2021-01-13 19:09:11,972 - INFO - allennlp.common.params - model.token_based_metric = None
+2021-01-13 19:09:11,972 - INFO - allennlp.common.params - model.initializer = <allennlp.nn.initializers.InitializerApplicator object at 0x000002AAB0BC8FA0>
+2021-01-13 19:09:12,086 - INFO - allennlp.nn.initializers - Initializing parameters
+2021-01-13 19:09:12,086 - INFO - allennlp.nn.initializers - Done initializing parameters; the following parameters are using their default initialization from their code
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _attention._bias
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _attention._weight_matrix
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _decoder_cell.bias_hh
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _decoder_cell.bias_ih
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _decoder_cell.weight_hh
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _decoder_cell.weight_ih
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _encoder._module.bias_hh_l0
+2021-01-13 19:09:12,087 - INFO - allennlp.nn.initializers -    _encoder._module.bias_ih_l0
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _encoder._module.weight_hh_l0
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _encoder._module.weight_ih_l0
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _input_projection_layer.bias
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _input_projection_layer.weight
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _output_copying_layer.bias
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _output_copying_layer.weight
+2021-01-13 19:09:12,088 - INFO - allennlp.nn.initializers -    _output_generation_layer.bias
+2021-01-13 19:09:12,089 - INFO - allennlp.nn.initializers -    _output_generation_layer.weight
+2021-01-13 19:09:12,089 - INFO - allennlp.nn.initializers -    _source_embedder.token_embedder_tokens.weight
+2021-01-13 19:09:12,089 - INFO - allennlp.nn.initializers -    _target_embedder.weight
+2021-01-13 19:09:12,091 - INFO - allennlp.common.params - data_loader.type = pytorch_dataloader
+2021-01-13 19:09:12,091 - INFO - allennlp.common.params - data_loader.batch_size = 1
+2021-01-13 19:09:12,091 - INFO - allennlp.common.params - data_loader.shuffle = False
+2021-01-13 19:09:12,091 - INFO - allennlp.common.params - data_loader.sampler = None
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.pin_memory = False
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.drop_last = False
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.timeout = 0
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.worker_init_fn = None
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.multiprocessing_context = None
+2021-01-13 19:09:12,092 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2021-01-13 19:09:12,093 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2021-01-13 19:09:12,093 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 32
+2021-01-13 19:09:12,093 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2021-01-13 19:09:12,093 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.0
+2021-01-13 19:09:12,093 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2021-01-13 19:09:12,096 - INFO - allennlp.common.params - data_loader.type = pytorch_dataloader
+2021-01-13 19:09:12,096 - INFO - allennlp.common.params - data_loader.batch_size = 1
+2021-01-13 19:09:12,096 - INFO - allennlp.common.params - data_loader.shuffle = False
+2021-01-13 19:09:12,096 - INFO - allennlp.common.params - data_loader.sampler = None
+2021-01-13 19:09:12,097 - INFO - allennlp.common.params - data_loader.num_workers = 0
+2021-01-13 19:09:12,097 - INFO - allennlp.common.params - data_loader.pin_memory = False
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.drop_last = False
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.timeout = 0
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.worker_init_fn = None
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.multiprocessing_context = None
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.batches_per_epoch = None
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.batch_sampler.type = bucket
+2021-01-13 19:09:12,098 - INFO - allennlp.common.params - data_loader.batch_sampler.batch_size = 32
+2021-01-13 19:09:12,099 - INFO - allennlp.common.params - data_loader.batch_sampler.sorting_keys = None
+2021-01-13 19:09:12,099 - INFO - allennlp.common.params - data_loader.batch_sampler.padding_noise = 0.0
+2021-01-13 19:09:12,099 - INFO - allennlp.common.params - data_loader.batch_sampler.drop_last = False
+2021-01-13 19:09:12,099 - INFO - allennlp.common.params - trainer.type = gradient_descent
+2021-01-13 19:09:12,099 - INFO - allennlp.common.params - trainer.patience = 10
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.validation_metric = -loss
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.num_epochs = 30
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.cuda_device = 0
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.grad_norm = None
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.grad_clipping = None
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.distributed = False
+2021-01-13 19:09:12,100 - INFO - allennlp.common.params - trainer.world_size = 1
+2021-01-13 19:09:12,101 - INFO - allennlp.common.params - trainer.num_gradient_accumulation_steps = 1
+2021-01-13 19:09:12,101 - INFO - allennlp.common.params - trainer.use_amp = False
+2021-01-13 19:09:12,101 - INFO - allennlp.common.params - trainer.no_grad = None
+2021-01-13 19:09:12,101 - INFO - allennlp.common.params - trainer.learning_rate_scheduler = None
+2021-01-13 19:09:12,101 - INFO - allennlp.common.params - trainer.momentum_scheduler = None
+2021-01-13 19:09:12,101 - INFO - allennlp.common.params - trainer.tensorboard_writer = <allennlp.common.lazy.Lazy object at 0x000002AAB0AD62B0>
+2021-01-13 19:09:12,102 - INFO - allennlp.common.params - trainer.moving_average = None
+2021-01-13 19:09:12,102 - INFO - allennlp.common.params - trainer.checkpointer = <allennlp.common.lazy.Lazy object at 0x000002AAB0AD63A0>
+2021-01-13 19:09:12,102 - INFO - allennlp.common.params - trainer.batch_callbacks = None
+2021-01-13 19:09:12,102 - INFO - allennlp.common.params - trainer.epoch_callbacks = None
+2021-01-13 19:09:12,102 - INFO - allennlp.common.params - trainer.end_callbacks = None
+2021-01-13 19:09:12,102 - INFO - allennlp.common.params - trainer.trainer_callbacks = None
+2021-01-13 19:09:12,102 - CRITICAL - root - Uncaught exception
+Traceback (most recent call last):
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\Users\Selma\anaconda3\envs\AllenNLPCopyNet\Scripts\allennlp.exe\__main__.py", line 7, in <module>
+    sys.exit(run())
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\__main__.py", line 34, in run
+    main(prog="allennlp")
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\commands\__init__.py", line 118, in main
+    args.func(args)
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\commands\train.py", line 110, in train_model_from_args
+    train_model_from_file(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\commands\train.py", line 170, in train_model_from_file
+    return train_model(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\commands\train.py", line 236, in train_model
+    model = _train_worker(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\commands\train.py", line 453, in _train_worker
+    train_loop = TrainModel.from_params(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\from_params.py", line 595, in from_params
+    return retyped_subclass.from_params(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\from_params.py", line 629, in from_params
+    return constructor_to_call(**kwargs)  # type: ignore
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\commands\train.py", line 714, in from_partial_objects
+    trainer_ = trainer.construct(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\lazy.py", line 58, in construct
+    return self._constructor(**kwargs)
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\from_params.py", line 465, in constructor
+    return value_cls.from_params(params=deepcopy(popped_params), **constructor_extras)
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\from_params.py", line 595, in from_params
+    return retyped_subclass.from_params(
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\from_params.py", line 629, in from_params
+    return constructor_to_call(**kwargs)  # type: ignore
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\training\trainer.py", line 1266, in from_partial_objects
+    check_for_gpu(cuda_device)
+  File "c:\users\selma\anaconda3\envs\allennlpcopynet\lib\site-packages\allennlp\common\checks.py", line 128, in check_for_gpu
+    raise ConfigurationError(
+allennlp.common.checks.ConfigurationError: Experiment specified a GPU but none is available; if you want to run on CPU use the override 'trainer.cuda_device=-1' in the json config file.
+module 'torch.cuda' has no attribute '_check_driver'

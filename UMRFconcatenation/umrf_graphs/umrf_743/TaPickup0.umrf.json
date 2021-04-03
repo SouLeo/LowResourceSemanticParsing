@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Pick up the baseball bat from the corner of the room",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "from the corner of the room"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the baseball bat"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Pick up"
+        }
+    }
+}

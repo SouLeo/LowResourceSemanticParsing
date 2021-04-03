@@ -1,0 +1,27 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "Hang a right at the wooden dresser",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "at the wooden dresser"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Hang"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "TaStop",
+    "package_name": "ta_stop",
+    "description": "and stand in front of the cabinet with the lamp with a green shade.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "in front of the cabinet with the lamp with a green shade"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "stand"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

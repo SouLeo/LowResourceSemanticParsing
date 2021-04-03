@@ -1,0 +1,105 @@
+{
+    "dataset_reader": {
+        "type": "copynet_seq2seq",
+        "source_token_indexers": {
+            "dependency_label": {
+                "type": "single_id",
+                "default_value": "NONE",
+                "feature_name": "dep_",
+                "namespace": "dependencies"
+            },
+            "ner_tags": {
+                "type": "single_id",
+                "default_value": "NONE",
+                "feature_name": "ent_type_",
+                "namespace": "ner"
+            },
+            "pos_tags": {
+                "type": "single_id",
+                "default_value": "NONE",
+                "feature_name": "pos_",
+                "namespace": "pos"
+            },
+            "tokens": {
+                "type": "single_id",
+                "namespace": "source_tokens"
+            }
+        },
+        "source_tokenizer": {
+            "type": "spacy",
+            "ner": false,
+            "parse": false,
+            "pos_tags": false
+        },
+        "target_namespace": "target_tokens",
+        "target_tokenizer": {
+            "type": "spacy"
+        }
+    },
+    "model": {
+        "type": "copynet_seq2seq",
+        "attention": {
+            "type": "bilinear",
+            "matrix_dim": 128,
+            "vector_dim": 128
+        },
+        "beam_size": 5,
+        "encoder": {
+            "type": "lstm",
+            "hidden_size": 128,
+            "input_size": 332,
+            "num_layers": 1
+        },
+        "max_decoding_steps": 200,
+        "source_embedder": {
+            "token_embedders": {
+                "dependency_label": {
+                    "type": "embedding",
+                    "embedding_dim": 10,
+                    "vocab_namespace": "dependencies"
+                },
+                "ner_tags": {
+                    "type": "embedding",
+                    "embedding_dim": 7,
+                    "vocab_namespace": "ner"
+                },
+                "pos_tags": {
+                    "type": "embedding",
+                    "embedding_dim": 5,
+                    "vocab_namespace": "pos"
+                },
+                "tokens": {
+                    "type": "embedding",
+                    "embedding_dim": 310,
+                    "trainable": true,
+                    "vocab_namespace": "source_tokens"
+                }
+            }
+        },
+        "target_embedding_dim": 150
+    },
+    "train_data_path": "new_data_files/Nonaugmented/Train/UMRF_train_node_mismatch_corrected.tsv",
+    "validation_data_path": "new_data_files/Nonaugmented/Valid/UMRF_valid_node_corrected.tsv",
+    "trainer": {
+        "cuda_device": -1,
+        "num_epochs": 26,
+        "optimizer": {
+            "type": "adam",
+            "lr": 0.01
+        },
+        "patience": 10
+    },
+    "vocabulary": {
+        "min_count": {
+            "source_tokens": 2,
+            "target_tokens": 2
+        }
+    },
+    "data_loader": {
+        "batch_sampler": {
+            "type": "bucket",
+            "batch_size": 32,
+            "padding_noise": 0.0
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry a basketball while turning on a lamp",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "basketball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Carry"
+        }
+    }
+}

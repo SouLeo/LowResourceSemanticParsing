@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_844", "graph_description": "", "umrf_actions": [{"name": "TaSurvey", "package_name": "ta_survey", "description": "Examine a basketball by the light of a desk lamp", "id": 0, "effect": "synchronous", "input_parameters": {"object": {"pvf_type": "string", "pvf_example": "basketball"}, "verb": {"pvf_type": "string", "pvf_example": "Examine"}}}]}

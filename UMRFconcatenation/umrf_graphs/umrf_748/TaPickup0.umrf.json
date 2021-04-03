@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Grab the baseball bat that is next to the door.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "that is next to the door"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "baseball bat"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Grab"
+        }
+    }
+}

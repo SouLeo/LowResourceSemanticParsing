@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "Turn around 180 degrees",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "around"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "180"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "degrees"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

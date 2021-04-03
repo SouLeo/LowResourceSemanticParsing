@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "and go forward to the desk ",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "forward"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "to the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "go"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 2
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Pick up the basketball",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "basketball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Pick up"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

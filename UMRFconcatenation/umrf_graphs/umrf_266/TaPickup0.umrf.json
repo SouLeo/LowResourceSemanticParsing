@@ -1,0 +1,23 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Pick up a clock",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "a clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Pick up"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

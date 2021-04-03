@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "hang a left at the door",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "at the door"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "hang"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

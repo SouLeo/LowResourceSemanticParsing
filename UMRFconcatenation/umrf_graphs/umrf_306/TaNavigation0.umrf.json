@@ -1,0 +1,17 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "Head towards the top desk drawer to the right of the trash can",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "top desk to the right of the trash can"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Head"
+        }
+    }
+}

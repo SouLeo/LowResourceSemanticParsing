@@ -1,0 +1,17 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "View the black and brown object in the light.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "black and brown object"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "View"
+        }
+    }
+}

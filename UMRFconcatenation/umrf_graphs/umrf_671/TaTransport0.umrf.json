@@ -1,0 +1,27 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "take the bat over to the lamp to turn it on",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the lamp"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "bat"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "take"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "Inspect a bat with a lamp",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "bat"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Inspect"
+        }
+    }
+}

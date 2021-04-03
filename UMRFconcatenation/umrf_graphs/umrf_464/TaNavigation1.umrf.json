@@ -1,0 +1,24 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "and walk to the right side of the desk.",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "extent": {
+            "pvf_type": "string"
+        },
+        "location": {
+            "pvf_type": "string"
+        },
+        "verb": {
+            "pvf_type": "string"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}

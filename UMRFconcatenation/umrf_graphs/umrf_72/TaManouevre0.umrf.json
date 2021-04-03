@@ -1,0 +1,27 @@
+{
+    "name": "TaManouevre",
+    "package_name": "ta_manouevre",
+    "description": "Walk forward to the door",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "forward"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "to the door"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManouevre",
+            "id": 1
+        }
+    ]
+}

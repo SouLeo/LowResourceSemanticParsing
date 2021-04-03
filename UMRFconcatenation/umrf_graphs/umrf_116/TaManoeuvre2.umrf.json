@@ -1,0 +1,35 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "walk a few steps",
+    "id": 2,
+    "effect": "synchronous",
+    "input_parameters": {
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "a few"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "steps"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

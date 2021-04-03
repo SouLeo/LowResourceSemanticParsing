@@ -1,0 +1,17 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "Examine a clock under the lamp.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "a clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Examine"
+        }
+    }
+}

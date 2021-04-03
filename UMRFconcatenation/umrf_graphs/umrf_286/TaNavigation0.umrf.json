@@ -1,0 +1,23 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "and walk to the desk",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}

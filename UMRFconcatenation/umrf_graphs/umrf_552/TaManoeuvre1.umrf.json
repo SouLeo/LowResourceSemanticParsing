@@ -1,0 +1,29 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "take a step",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "step"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "take"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 2
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

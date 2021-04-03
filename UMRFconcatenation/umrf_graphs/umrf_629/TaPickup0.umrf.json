@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "pick up alarm clock from night stand",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "from night stand"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "alarm clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "pick up"
+        }
+    }
+}

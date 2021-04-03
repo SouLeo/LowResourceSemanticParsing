@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Pick up the clear bowl that's above another clear bowl",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "above another clear bowl"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the clear bowl"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Pick up"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "and walk to the baseball bat leaning against the wall to the right of the desk",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "extent": {
+            "pvf_type": "string"
+        },
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the baseball bat leaning against the wall to the right of the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

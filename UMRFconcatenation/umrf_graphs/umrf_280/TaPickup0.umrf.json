@@ -1,0 +1,23 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "get a stamp ",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "a stamp"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "get"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

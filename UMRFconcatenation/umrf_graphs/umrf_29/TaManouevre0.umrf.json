@@ -1,0 +1,23 @@
+{
+    "name": "TaManouevre",
+    "package_name": "ta_manouevre",
+    "description": "Turn to the right ",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManouevre",
+            "id": 1
+        }
+    ]
+}

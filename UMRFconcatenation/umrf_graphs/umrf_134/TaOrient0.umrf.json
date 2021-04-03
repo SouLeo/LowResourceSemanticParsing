@@ -1,0 +1,23 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "and face the desk.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "face"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

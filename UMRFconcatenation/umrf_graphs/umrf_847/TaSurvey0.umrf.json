@@ -1,0 +1,23 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "to examine the ball",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "ball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "examine"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

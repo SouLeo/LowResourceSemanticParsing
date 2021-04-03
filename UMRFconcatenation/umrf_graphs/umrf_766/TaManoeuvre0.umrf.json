@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "Turn right for 2 steps",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "2"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "steps"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}

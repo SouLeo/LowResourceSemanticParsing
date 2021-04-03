@@ -1,0 +1,23 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "walk around the bed to the table with the lamp on it",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the table with the lamp on it"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManouevre",
+            "id": 0
+        }
+    ]
+}

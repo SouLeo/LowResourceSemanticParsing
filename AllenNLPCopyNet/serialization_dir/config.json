@@ -1,0 +1,69 @@
+{
+    "dataset_reader": {
+        "type": "copynet_seq2seq",
+        "source_token_indexers": {
+            "tokens": {
+                "type": "single_id",
+                "namespace": "source_tokens"
+            }
+        },
+        "source_tokenizer": {
+            "type": "spacy"
+        },
+        "target_namespace": "target_tokens",
+        "target_tokenizer": {
+            "type": "spacy"
+        }
+    },
+    "model": {
+        "type": "copynet_seq2seq",
+        "attention": {
+            "type": "bilinear",
+            "matrix_dim": 1500,
+            "vector_dim": 1500
+        },
+        "beam_size": 5,
+        "encoder": {
+            "type": "lstm",
+            "hidden_size": 1500,
+            "input_size": 310,
+            "num_layers": 1
+        },
+        "max_decoding_steps": 50,
+        "source_embedder": {
+            "token_embedders": {
+                "tokens": {
+                    "type": "embedding",
+                    "embedding_dim": 310,
+                    "trainable": true,
+                    "vocab_namespace": "source_tokens"
+                }
+            }
+        },
+        "target_embedding_dim": 1500
+    },
+    "train_data_path": "UMRF_train.tsv",
+    "validation_data_path": "valid_UMRF.tsv",
+    "trainer": {
+        "cuda_device": 0,
+        "num_epochs": 30,
+        "optimizer": {
+            "type": "adam",
+            "lr": 0.1
+        },
+        "patience": 10
+    },
+    "vocabulary": {
+        "min_count": {
+            "source_tokens": 304,
+            "target_tokens": 1474
+        }
+    },
+    "data_loader": {
+        "batch_sampler": {
+            "type": "bucket",
+            "batch_size": 32,
+            "padding_noise": 0.0
+        }
+    }
+}

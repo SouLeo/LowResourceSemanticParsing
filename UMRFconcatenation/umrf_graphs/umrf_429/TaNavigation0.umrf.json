@@ -1,0 +1,23 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "go back to the large desk.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the large desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "go"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

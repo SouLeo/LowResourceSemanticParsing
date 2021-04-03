@@ -1,0 +1,23 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "view it in the lamp light on the dresser",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "it"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "view"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaPickup",
+            "id": 0
+        }
+    ]
+}

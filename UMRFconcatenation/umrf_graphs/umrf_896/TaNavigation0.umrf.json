@@ -1,0 +1,17 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "Move towards the empty box in the corner of the room",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "towards the  empty box in the corner of the room"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Move"
+        }
+    }
+}

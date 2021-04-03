@@ -1,0 +1,23 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "to look at clock.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "look"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

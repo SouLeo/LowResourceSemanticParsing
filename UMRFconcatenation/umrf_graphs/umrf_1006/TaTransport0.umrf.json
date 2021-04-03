@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry the basketball and move to the wood colored desk located to the right of the bed",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the wood colored desk located to the right of the bed"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the basketball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Carry"
+        }
+    }
+}

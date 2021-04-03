@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Bring the basketball over to the window across the room",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the window across the room"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the basketball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Bring"
+        }
+    }
+}

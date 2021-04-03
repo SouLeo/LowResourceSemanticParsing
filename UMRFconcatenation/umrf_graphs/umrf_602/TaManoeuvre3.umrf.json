@@ -1,0 +1,39 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "then take a step to your left",
+    "id": 3,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "a"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "step"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "take"
+        }
+    },
+    "children": [
+        {
+            "name": "TaOrient",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

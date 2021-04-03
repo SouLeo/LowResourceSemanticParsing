@@ -1,0 +1,23 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "to find a basketball beneath the desk.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "a basketball beneath the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "find"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

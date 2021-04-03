@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Bring the bat to the lamp on the desk.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the lamp on the desk"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the bat"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Bring"
+        }
+    }
+}

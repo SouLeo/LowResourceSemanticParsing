@@ -1,0 +1,19 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "Walk to face bureau",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaOrient",
+            "id": 0
+        }
+    ]
+}

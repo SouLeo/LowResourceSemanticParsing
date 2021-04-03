@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry the pan to stand on the left side of the desk, which is next to a nightstand.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "on the left side of the desk, which is next to a nightstand"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "pan"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Carry"
+        }
+    }
+}

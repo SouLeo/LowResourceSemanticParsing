@@ -1,0 +1,41 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "then turn left towards the window",
+    "id": 4,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number"
+            },
+            "unit": {
+                "pvf_type": "string"
+            }
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "towards the window"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 5
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 3
+        }
+    ]
+}

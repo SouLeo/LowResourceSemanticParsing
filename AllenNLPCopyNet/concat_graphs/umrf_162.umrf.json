@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_162", "graph_description": "", "umrf_actions": [{"name": "TaManouevre", "package_name": "ta_manouevre", "description": "Head to the left", "id": 0, "effect": "synchronous", "input_parameters": {"direction": {"pvf_type": "string", "pvf_example": "left"}, "verb": {"pvf_type": "string", "pvf_example": "Head"}}}]}

@@ -1,0 +1,17 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "then stand looking down the length of the dresser with the wall on your left and the light in front of you.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "looking down the length of the dresser with the wall on your left and the light in front of you."
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "stand"
+        }
+    }
+}

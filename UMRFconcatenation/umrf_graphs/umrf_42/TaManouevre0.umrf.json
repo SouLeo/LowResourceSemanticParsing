@@ -1,0 +1,19 @@
+{
+    "name": "TaManouevre",
+    "package_name": "ta_manouevre",
+    "description": "Turn",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "examine a basketball with a lamp",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "basketball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "examine"
+        }
+    }
+}

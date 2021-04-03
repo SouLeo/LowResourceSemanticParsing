@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "Walk few step straight",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "straight"
+        },
+        "distance": {
+            "amount": {
+                "pvf_type": "number",
+                "pvf_example": "few"
+            },
+            "unit": {
+                "pvf_type": "string",
+                "pvf_example": "step"
+            }
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_498", "graph_description": "", "umrf_actions": [{"name": "TaSurvey", "package_name": "ta_survey", "description": "Look at a clock in the light of a lamp", "id": 0, "effect": "synchronous", "input_parameters": {"object": {"pvf_type": "string", "pvf_example": "clock"}, "verb": {"pvf_type": "string", "pvf_example": "Look"}}}]}

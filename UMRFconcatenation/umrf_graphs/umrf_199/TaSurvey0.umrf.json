@@ -1,0 +1,17 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "Look at a clock under a lamp",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Look"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "and turn right at the bed to face the desk.",
+    "id": 2,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "at the bed to face the desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}

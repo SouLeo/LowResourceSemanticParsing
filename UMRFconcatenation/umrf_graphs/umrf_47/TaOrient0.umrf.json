@@ -1,0 +1,23 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "and face the shelf by the window with the plant and clock on it",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "the window with the plant and clock on it"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "face"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManouevre",
+            "id": 0
+        }
+    ]
+}

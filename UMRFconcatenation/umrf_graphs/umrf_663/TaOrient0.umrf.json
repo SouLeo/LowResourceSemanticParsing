@@ -1,0 +1,23 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "Facing the desk",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "desk"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Facing"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

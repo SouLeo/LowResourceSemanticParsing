@@ -1,0 +1,1 @@
+{"graph_name": "fsm_graph_254", "graph_description": "", "umrf_actions": [{"name": "TaOrient", "package_name": "ta_orient", "description": " to face the lamp on top of the desk", "id": 0, "effect": "synchronous", "input_parameters": {"landmark": {"pvf_type": "string", "pvf_example": "the lamp on top of the desk"}, "verb": {"pvf_type": "string", "pvf_example": "face"}}}]}

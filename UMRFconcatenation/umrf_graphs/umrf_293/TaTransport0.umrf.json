@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry the red and yellow item over to the night stand at hte foot of the bed",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the night stand at hte foot of the bed"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "red and yellow item"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Carry"
+        }
+    }
+}

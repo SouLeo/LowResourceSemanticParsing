@@ -1,0 +1,17 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "Face the lamp on the dresser in front of you.",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "the lamp on the dresser in front of you."
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Face"
+        }
+    }
+}

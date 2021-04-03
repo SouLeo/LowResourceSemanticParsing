@@ -1,0 +1,29 @@
+{
+    "name": "TaOrient",
+    "package_name": "ta_orient",
+    "description": "to face the bed",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "landmark": {
+            "pvf_type": "string",
+            "pvf_example": "the bed"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "face"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 4
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 3
+        }
+    ]
+}

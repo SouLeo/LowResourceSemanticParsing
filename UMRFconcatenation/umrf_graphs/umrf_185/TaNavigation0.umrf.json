@@ -1,0 +1,32 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "walk to the door on the right across the room",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "extent": {
+            "pvf_type": "string"
+        },
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the door on the right across the room"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "walk"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaOrient",
+            "id": 0
+        }
+    ]
+}

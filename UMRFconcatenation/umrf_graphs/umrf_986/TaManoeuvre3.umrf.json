@@ -1,0 +1,33 @@
+{
+    "name": "TaManoeuvre",
+    "package_name": "ta_manoeuvre",
+    "description": "when the desk is to the left turn left",
+    "id": 3,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "left"
+        },
+        "extent": {
+            "pvf_type": "string",
+            "pvf_example": "when the desk is to the left"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaNavigation",
+            "id": 1
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 2
+        }
+    ]
+}

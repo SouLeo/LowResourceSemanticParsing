@@ -1,0 +1,29 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "toward the baseball bat",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "the baseball bat"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "toward"
+        }
+    },
+    "children": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

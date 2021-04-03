@@ -1,0 +1,27 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "take a basketball to the table ",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the table"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "basketball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "take"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

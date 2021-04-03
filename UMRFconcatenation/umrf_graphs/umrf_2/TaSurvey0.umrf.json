@@ -1,0 +1,25 @@
+{
+    "name": "TaSurvey",
+    "package_name": "ta_survey",
+    "description": "look",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "look"
+        }
+    },
+    "children": [
+        {
+            "name": "TaOrient",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaManouever",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "name": "TaStop",
+    "package_name": "ta_stop",
+    "description": "stop ",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "stop"
+        }
+    },
+    "children": [
+        {
+            "name": "TaOrient",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

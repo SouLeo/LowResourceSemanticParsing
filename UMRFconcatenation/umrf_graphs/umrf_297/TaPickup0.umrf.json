@@ -1,0 +1,21 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "grab the powerbank out of the drawer of the desk",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "locale": {
+            "pvf_type": "string",
+            "pvf_example": "out of the drawer of the desk"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "powerbank"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "grab"
+        }
+    }
+}

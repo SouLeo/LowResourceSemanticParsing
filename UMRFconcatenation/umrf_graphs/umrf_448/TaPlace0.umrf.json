@@ -1,0 +1,32 @@
+{
+    "name": "TaPlace",
+    "package_name": "ta_place",
+    "description": "place on table",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "on table"
+        },
+        "object": {
+            "pvf_type": "string"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "place"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaPickup",
+            "id": 0
+        }
+    ]
+}

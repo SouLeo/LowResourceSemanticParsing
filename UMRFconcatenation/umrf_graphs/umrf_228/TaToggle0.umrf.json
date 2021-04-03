@@ -1,0 +1,33 @@
+{
+    "name": "TaToggle",
+    "package_name": "ta_toggle",
+    "description": "turn off the lamp",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "lamp"
+        },
+        "state": {
+            "pvf_type": "string",
+            "pvf_example": "off"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "turn"
+        }
+    },
+    "children": [
+        {
+            "name": "TaPickup",
+            "id": 0
+        }
+    ],
+    "parents": [
+        {
+            "name": "TaNavigation",
+            "id": 0
+        }
+    ]
+}

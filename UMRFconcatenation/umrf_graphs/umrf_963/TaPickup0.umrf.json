@@ -1,0 +1,17 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "and pick up the basket ball",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "basket ball"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "pick up"
+        }
+    }
+}

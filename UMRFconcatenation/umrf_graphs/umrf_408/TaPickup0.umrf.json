@@ -1,0 +1,23 @@
+{
+    "name": "TaPickup",
+    "package_name": "ta_pickup",
+    "description": "Grab an alarm clock ",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "alarm clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Grab"
+        }
+    },
+    "children": [
+        {
+            "name": "TaToggle",
+            "id": 0
+        }
+    ]
+}

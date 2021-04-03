@@ -1,0 +1,19 @@
+{
+    "name": "TaManouevre",
+    "package_name": "ta_manouevre",
+    "description": "right again to face the white desk",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "direction": {
+            "pvf_type": "string",
+            "pvf_example": "right"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManouevre",
+            "id": 0
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry the bowl over to the far left side of the desk shelf where the lamp is",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the far left side of the desk shelf where the lamp is"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the bowl"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "Carry"
+        }
+    }
+}

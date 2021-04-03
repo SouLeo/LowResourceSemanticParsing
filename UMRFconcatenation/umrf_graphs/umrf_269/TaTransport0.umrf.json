@@ -1,0 +1,21 @@
+{
+    "name": "TaTransport",
+    "package_name": "ta_transport",
+    "description": "Carry the clock over to the opposite end of the desk where the desk lamp is",
+    "id": 0,
+    "effect": "synchronous",
+    "input_parameters": {
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to opposite end of the desk where the desk lamp is"
+        },
+        "object": {
+            "pvf_type": "string",
+            "pvf_example": "the clock"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "carry"
+        }
+    }
+}

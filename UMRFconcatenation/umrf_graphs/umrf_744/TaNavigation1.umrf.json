@@ -1,0 +1,26 @@
+{
+    "name": "TaNavigation",
+    "package_name": "ta_navigation",
+    "description": "and move forward to the desk next to the potted plant.",
+    "id": 1,
+    "effect": "synchronous",
+    "input_parameters": {
+        "extent": {
+            "pvf_type": "string"
+        },
+        "location": {
+            "pvf_type": "string",
+            "pvf_example": "to the desk next to the potted plant"
+        },
+        "verb": {
+            "pvf_type": "string",
+            "pvf_example": "move"
+        }
+    },
+    "parents": [
+        {
+            "name": "TaManoeuvre",
+            "id": 1
+        }
+    ]
+}
